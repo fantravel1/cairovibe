@@ -174,22 +174,46 @@
 
   <!-- Main Content -->
   <main id="main-content">
-    <!-- Hero Section -->
-    <section class="hero" aria-labelledby="hero-title">
+    <!-- Epic Video Hero Section -->
+    <section class="hero hero-video" aria-labelledby="hero-title">
+      <!-- YouTube Video Background -->
+      <div class="hero-video-container" aria-hidden="true">
+        <div class="hero-video-wrapper">
+          <iframe
+            id="hero-video"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1&loop=1&playlist=dQw4w9WgXcQ&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1&enablejsapi=1&origin=https://cairovibe.com"
+            title="Cairo Nightlife Atmosphere"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <!-- Video Overlay for readability -->
+        <div class="hero-video-overlay"></div>
+      </div>
+
+      <!-- Animated Background Shapes (fallback/enhancement) -->
       <div class="hero-shapes" aria-hidden="true">
         <div class="hero-shape hero-shape-1"></div>
         <div class="hero-shape hero-shape-2"></div>
         <div class="hero-shape hero-shape-3"></div>
       </div>
 
+      <!-- Live Indicator -->
+      <div class="hero-live-indicator">
+        <span class="live-dot"></span>
+        <span class="live-text">LIVE FROM CAIRO</span>
+      </div>
+
       <div class="hero-content">
-        <div class="hero-badge">
-          <span>Live from Cairo</span>
+        <div class="hero-badge hero-badge-animated">
+          <span class="badge-pulse"></span>
+          <span>Experience Cairo Tonight</span>
         </div>
 
         <h1 id="hero-title" class="hero-title">
-          <span class="hero-title-main">CairoVibe</span>
-          <span class="hero-title-sub">Cairo After Dark. Cairo Alive.</span>
+          <span class="hero-title-main glitch" data-text="CairoVibe">CairoVibe</span>
+          <span class="hero-title-sub typewriter">Cairo After Dark. Cairo Alive.</span>
         </h1>
 
         <p class="hero-description">
@@ -198,8 +222,103 @@
         </p>
 
         <div class="hero-cta">
-          <a href="/go-out/" class="btn btn-primary">Explore Nightlife</a>
-          <a href="/neighborhoods/" class="btn btn-secondary">Discover Neighborhoods</a>
+          <a href="/go-out/" class="btn btn-primary btn-glow">
+            <span class="btn-icon">&#x1F389;</span> Explore Nightlife
+          </a>
+          <a href="/neighborhoods/" class="btn btn-secondary">
+            <span class="btn-icon">&#x1F3D9;</span> Discover Neighborhoods
+          </a>
+          <a href="#tonight" class="btn btn-ghost">
+            <span class="btn-icon">&#x1F4F9;</span> Watch Live
+          </a>
+        </div>
+
+        <!-- Quick Stats in Hero -->
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="hero-stat-number">2,847</span>
+            <span class="hero-stat-label">Venues</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-number">156</span>
+            <span class="hero-stat-label">Open Now</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-number">12</span>
+            <span class="hero-stat-label">Events Tonight</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <div class="hero-scroll-indicator">
+        <span>Scroll to explore</span>
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- Tonight's Highlights - Live Section -->
+    <section id="tonight" class="section tonight-section">
+      <div class="container">
+        <header class="section-header">
+          <div class="live-badge-large">
+            <span class="live-dot"></span>
+            <span>HAPPENING NOW</span>
+          </div>
+          <h2 class="section-title">Tonight in Cairo</h2>
+          <p class="section-description">Real-time updates from Cairo's hottest spots. Updated every hour.</p>
+        </header>
+
+        <div class="tonight-grid">
+          <div class="tonight-card tonight-featured">
+            <div class="tonight-video-thumb">
+              <img src="https://images.unsplash.com/photo-1566417713940-fe7c737a9ef2?w=800&q=80" alt="Cairo Jazz Club Live" loading="lazy">
+              <div class="tonight-live-badge">LIVE</div>
+              <div class="tonight-play-btn">&#x25B6;</div>
+            </div>
+            <div class="tonight-info">
+              <span class="tonight-venue">Cairo Jazz Club</span>
+              <span class="tonight-event">Jazz Fusion Night ft. Nile Project</span>
+              <span class="tonight-meta">&#x1F464; 342 people checked in</span>
+            </div>
+          </div>
+
+          <div class="tonight-card">
+            <div class="tonight-thumb">
+              <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=400&q=80" alt="The Roof" loading="lazy">
+              <span class="tonight-crowd">&#x1F525; Packed</span>
+            </div>
+            <div class="tonight-info">
+              <span class="tonight-venue">The Roof</span>
+              <span class="tonight-event">Sunset Sessions</span>
+            </div>
+          </div>
+
+          <div class="tonight-card">
+            <div class="tonight-thumb">
+              <img src="https://images.unsplash.com/photo-1571204829887-3b8d69e4094d?w=400&q=80" alt="Nacelle Club" loading="lazy">
+              <span class="tonight-crowd">&#x1F3B5; DJ Set</span>
+            </div>
+            <div class="tonight-info">
+              <span class="tonight-venue">Nacelle</span>
+              <span class="tonight-event">International DJ Night</span>
+            </div>
+          </div>
+
+          <div class="tonight-card">
+            <div class="tonight-thumb">
+              <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80" alt="Street Food" loading="lazy">
+              <span class="tonight-crowd">&#x1F374; Open Late</span>
+            </div>
+            <div class="tonight-info">
+              <span class="tonight-venue">Downtown Food Crawl</span>
+              <span class="tonight-event">Late Night Koshari Run</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-xl">
+          <a href="/events/" class="btn btn-primary">See All Tonight's Events</a>
         </div>
       </div>
     </section>
