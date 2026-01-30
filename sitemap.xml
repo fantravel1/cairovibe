@@ -314,6 +314,94 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Additional Bar Venues -->
+  <url>
+    <loc>https://cairovibe.com/drink/venues/the-tap/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Additional Cafe Venues -->
+  <url>
+    <loc>https://cairovibe.com/cafes/venues/cilantro/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Additional Hotel Venues -->
+  <url>
+    <loc>https://cairovibe.com/sleep/venues/sofitel-zamalek/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Additional Story Articles -->
+  <url>
+    <loc>https://cairovibe.com/stories/cairo-coffee-culture/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cairovibe.com/stories/ramadan-guide/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Additional Restaurant Venues -->
+  <url>
+    <loc>https://cairovibe.com/eat/venues/tabla-luna/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cairovibe.com/eat/venues/kazoku/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cairovibe.com/eat/venues/bab-el-sharq/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Additional Bar Venues -->
+  <url>
+    <loc>https://cairovibe.com/drink/venues/saigon/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cairovibe.com/drink/venues/tempo/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Additional Hotel Venues -->
+  <url>
+    <loc>https://cairovibe.com/sleep/venues/conrad-cairo/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Additional Cafe Venues -->
+  <url>
+    <loc>https://cairovibe.com/cafes/venues/beanos/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Info Pages -->
   <url>
     <loc>https://cairovibe.com/about/</loc>
