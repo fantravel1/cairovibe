@@ -135,6 +135,30 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://cairovibe.com/vibes/live-music/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cairovibe.com/vibes/late-night/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cairovibe.com/vibes/budget-friendly/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cairovibe.com/vibes/luxury/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 
   <!-- Collection Detail Pages -->
   <url>
@@ -149,8 +173,20 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://cairovibe.com/collections/first-timer/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cairovibe.com/collections/foodie-trail/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 
-  <!-- Venue Detail Pages -->
+  <!-- Restaurant Venue Pages -->
   <url>
     <loc>https://cairovibe.com/eat/venues/zooba/</loc>
     <lastmod>2025-01-30</lastmod>
@@ -158,10 +194,54 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://cairovibe.com/eat/venues/sequoia/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Bar Venue Pages -->
+  <url>
     <loc>https://cairovibe.com/drink/venues/crimson-bar/</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cairovibe.com/drink/venues/cairo-jazz-club/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Cafe Venue Pages -->
+  <url>
+    <loc>https://cairovibe.com/cafes/venues/left-bank/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Hotel Venue Pages -->
+  <url>
+    <loc>https://cairovibe.com/sleep/venues/four-seasons-nile/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cairovibe.com/sleep/venues/mena-house/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Story Articles -->
+  <url>
+    <loc>https://cairovibe.com/stories/24-hours-zamalek/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <!-- Info Pages -->
