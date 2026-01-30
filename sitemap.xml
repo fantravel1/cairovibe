@@ -185,6 +185,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://cairovibe.com/collections/local-secrets/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 
   <!-- Restaurant Venue Pages -->
   <url>
@@ -195,6 +201,18 @@
   </url>
   <url>
     <loc>https://cairovibe.com/eat/venues/sequoia/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cairovibe.com/eat/venues/abou-shakra/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cairovibe.com/eat/venues/koshary-abou-tarek/</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -236,9 +254,23 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Nightlife Venue Pages -->
+  <url>
+    <loc>https://cairovibe.com/go-out/venues/opia/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Story Articles -->
   <url>
     <loc>https://cairovibe.com/stories/24-hours-zamalek/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cairovibe.com/stories/street-food-guide/</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
