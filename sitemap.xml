@@ -314,6 +314,38 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Additional Bar Venues -->
+  <url>
+    <loc>https://cairovibe.com/drink/venues/the-tap/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Additional Cafe Venues -->
+  <url>
+    <loc>https://cairovibe.com/cafes/venues/cilantro/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Additional Hotel Venues -->
+  <url>
+    <loc>https://cairovibe.com/sleep/venues/sofitel-zamalek/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Additional Story Articles -->
+  <url>
+    <loc>https://cairovibe.com/stories/cairo-coffee-culture/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
   <!-- Info Pages -->
   <url>
     <loc>https://cairovibe.com/about/</loc>
